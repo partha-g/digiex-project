@@ -11,8 +11,7 @@ body {
   background-color: #d7d7d7;
 }
 
-.mt-24{
-
+.mt-24 {
   margin-top: 24px;
 }
 
@@ -1265,7 +1264,6 @@ h6,
   padding-bottom: 40px;
 }
 
-
 .clientreview1 {
   background-color: #f8f8f8;
   margin: 0px;
@@ -1440,7 +1438,8 @@ h6,
   background: url(../img/faq-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px, rgba(0, 0, 0, 0.45) 0px -25px 20px -20px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px,
+    rgba(0, 0, 0, 0.45) 0px -25px 20px -20px;
   margin-top: 10px;
 }
 
@@ -1477,7 +1476,7 @@ h6,
 
 .nav-pills .nav-link:hover,
 .nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
+.nav-pills .show > .nav-link {
   background-color: #090d61;
   color: #fff;
 }
@@ -1976,13 +1975,15 @@ h6,
 .servicedtailsbg {
   margin: 0px;
   padding: 0px;
-  background: linear-gradient(143deg,
-      #090d6100,
-      #090d61ab,
-      #090d61,
-      #090d61,
-      #090d61,
-      #090d61);
+  background: linear-gradient(
+    143deg,
+    #090d6100,
+    #090d61ab,
+    #090d61,
+    #090d61,
+    #090d61,
+    #090d61
+  );
   height: 550px;
   display: flex;
   justify-content: center;
@@ -2196,15 +2197,12 @@ h6,
   gap: 10px;
 }
 
-
 .ecommercedevbodyexpertise1boxicon {
-
   margin: 0px;
   padding: px;
 }
 
 .ecommercedevbodyexpertise1boxicon1 {
-
   width: 40px;
   height: 40px;
   background-color: rgb(9, 13, 97);
@@ -2215,10 +2213,7 @@ h6,
   margin-top: 10px;
 }
 
-
 .ecommercedevbodyexpertise1boxicon1 i {
-
-
   color: white;
   font-size: 18px;
   width: 40px;
@@ -2228,7 +2223,6 @@ h6,
   justify-content: center;
   align-items: center;
 }
-
 
 /* .ecommercedevbodyexpertise1boxmain::after {
   content: "";
@@ -2865,7 +2859,7 @@ h6,
   border-radius: 0px !important;
 }
 
-.owl-theme .owl-nav.disabled+.owl-dots {
+.owl-theme .owl-nav.disabled + .owl-dots {
   margin-top: 0 !important;
   padding: 1rem 0px;
 }
@@ -3304,28 +3298,22 @@ h6,
   border-bottom: 0px !important;
 }
 
-
 /*--------corporatepage 01.04.2025------------*/
 
-
 .corporatepadding {
-
   margin: 0px;
   padding: 1rem 2rem;
   /* border-top: solid 1px #dfdfdf; */
 }
 
 .corporatepadding_left {
-
   margin: 0px;
   padding: 0px;
   width: 100%;
   display: block;
 }
 
-
 .corporatepadding_left h2 {
-
   color: #000;
   font-size: clamp(18px, 5vw, 26px);
   font-family: "Merriweather" !important;
@@ -3337,7 +3325,6 @@ h6,
 } */
 
 .corporatepadding_left p {
-
   color: #2b2b2b;
   font-size: 1rem;
   font-family: "baloo thambi 2";
@@ -3346,7 +3333,6 @@ h6,
 }
 
 .corporateright {
-
   margin: 0px;
   padding: 0px;
   width: 100%;
@@ -3356,7 +3342,6 @@ h6,
 /*-----whatmakes---------*/
 
 .whatmakes_body {
-
   margin: 0px;
   padding: 56px 0px;
   width: 100%;
@@ -3367,9 +3352,8 @@ h6,
   z-index: 1;
   /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;  */
-  background-color: #E1EFFE;
+  background-color: #e1effe;
 }
-
 
 .whatmakesbodyMain {
   margin: 0px;
@@ -3381,14 +3365,14 @@ h6,
   padding-bottom: 5px;
   background-color: transparent;
   /* box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px; */
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   z-index: 3;
   margin: 10px 0px;
-  background: linear-gradient(to right, #fff, #E1EFFE);
+  background: linear-gradient(to right, #fff, #e1effe);
 }
 
 .whatmakesbodyMaindown {
-
   margin: 10px 0px;
   padding: 0px;
   margin: 0 auto;
@@ -3397,33 +3381,28 @@ h6,
 }
 
 .whatmakesbodyMaindown p {
-
   font-size: 1rem;
   font-family: "baloo thambi 2";
-  color: #5D5A64;
-
+  color: #5d5a64;
 }
 
 .whatmakesbodyMaindown h5 {
-  color: #DEA712;
+  color: #dea712;
   font-size: 37px;
   font-family: "inter", sans-serif;
   font-weight: 600;
 }
 
 .whatmakesbodyMaindown h6 {
-
-  color: #5E5E5E;
+  color: #5e5e5e;
   font-size: 24px;
   font-family: "montserrat alternates", sans-serif;
   font-weight: 400 !important;
 }
 
-.whatmakesbodyMaindown button
- {
-
+.whatmakesbodyMaindown button {
   margin-top: 30px;
-  background-color: #090D61;
+  background-color: #090d61;
   border: none;
   outline: none;
   padding: 15px 25px;
@@ -3434,40 +3413,33 @@ h6,
   transition: all 0.5s ease-in-out;
 }
 
-
-.whatmakesbodyMaindown button a{
-
+.whatmakesbodyMaindown button a {
   background-color: transparent;
   color: white;
   padding: 30px 0;
 }
 
 .whatmakesbodyMaindown button:hover {
-
   background-color: transparent;
-  color: #090D61;
-  border: solid 1px #090D61;
+  color: #090d61;
+  border: solid 1px #090d61;
 }
 
 .whatmakesbodyMaindown button a:hover {
-
   border: none;
   background-color: transparent;
-  color: #090D61;
+  color: #090d61;
 }
-
 
 /*-------customwebsite-------*/
 
 .CustomWebsitebgmain {
-
   background-color: white;
   margin: 0px;
   padding: 0px;
 }
 
 .CustomWebsitebg {
-
   background-color: white;
   margin: 0px auto;
   padding: 60px 20px;
@@ -3477,27 +3449,22 @@ h6,
 }
 
 .CustomWebsiteheadertext {
-
   margin: 0px;
   padding: 0px;
   text-align: center;
 }
 
-
 .CustomWebsiteheadertext h2 {
-
-  color: #090D61;
+  color: #090d61;
   font-family: "Merriweather" !important;
   font-size: clamp(22px, 5vw, 32px);
 }
 
 .CustomWebsiteheadertext h2 span {
-
-  color: #DEA712;
+  color: #dea712;
 }
 
-.CustomWebsiteheadertext p{
-
+.CustomWebsiteheadertext p {
   color: #3a383f;
   font-size: 1rem;
   line-height: 1.2rem;
@@ -3508,50 +3475,45 @@ h6,
   margin-top: 1rem;
 }
 
-
 .mt-40 {
-
   margin-top: 40px;
 }
 
-
 .CustomWebsitebox {
-
   margin: 0px;
   padding: 0px;
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
-
 .CustomWebsiteboxtop {
-
   margin: 0px;
   padding: 0px;
 }
 
 .CustomWebsiteboxtop1 {
-
   margin: 0px;
   padding: 0px;
   /* background-image: radial-gradient(circle at center, red 0, blue, green 100%); */
-  background-image: conic-gradient(from 36deg at 20% 80%, #A100FFFF 0% 25%, #000000 25% 30%, #119CFDFF 30% 50%);
+  background-image: conic-gradient(
+    from 36deg at 20% 80%,
+    #a100ffff 0% 25%,
+    #000000 25% 30%,
+    #119cfdff 30% 50%
+  );
   height: 300px !important;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
 .CustomWebsiteboxtop1 h4 {
-
   color: white;
   font-size: 30px;
   font-family: "Merriweather";
 }
 
-
 .CustomWebsiteboxtop1text {
-
   margin: 0px;
   padding: 0px;
   min-height: 200px;
@@ -3560,87 +3522,69 @@ h6,
   align-items: center;
 }
 
-
 .CustomWebsiteboxtop1text p {
-
   color: #222222;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
 }
 
-
 .CustomWebsitebtn {
-
   margin: 15px;
   text-align: center;
 }
 
 .CustomWebsitebtn button {
-
   background-color: transparent;
-  color: #090D61;
+  color: #090d61;
   font-size: 16px;
   padding: 10px 15px;
   outline: none;
   text-decoration: none;
   margin-bottom: 15px;
-  border: solid 1px #090D61;
+  border: solid 1px #090d61;
   transition: all 0.5s ease-in-out;
-
 }
 
 .CustomWebsitebtn button:hover {
-
-  background-color: #090D61;
+  background-color: #090d61;
   color: white;
 }
 
 .CustomWebsitebtn button a {
-
-  color: #090D61;
+  color: #090d61;
   padding: 30px 0;
 }
 
 .CustomWebsitebtn button a:hover {
-
   border: none;
   color: #ffffff;
 }
 
-
 /*-----WhatsOnYourMind-----*/
 
 .mt-top-50 {
-
   margin-top: -61px;
-
 }
-
 
 /*---------ourservicepage-----------*/
 
-
 .ourservicebox {
-
   margin: 0px;
   padding: 0px;
   width: 100%;
   display: block;
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   border-radius: 15px;
 }
 
 .ourserviceboxtext {
-
   margin: 0px;
   padding: 20px;
-
 }
 
-
 .ourserviceboxtext h4 {
-
-  color: #090D61;
+  color: #090d61;
   font-family: "Merriweather";
   font-size: 1rem;
   text-align: center;
@@ -3648,7 +3592,6 @@ h6,
 }
 
 .ourserviceboxtext p {
-
   color: #3a383f;
   font-size: 1rem;
   line-height: 1.2rem;
@@ -3657,20 +3600,16 @@ h6,
   text-align: justify;
   margin-bottom: 0px !important;
   margin-top: 1rem;
-
 }
-
 
 .ourserviceboximg {
   margin-top: 30px;
   padding: 0px;
   display: flex;
   justify-content: right;
-
 }
 
 .ourserviceboximg1 {
-
   position: relative;
   margin: 0px;
   padding: 0px;
@@ -3680,20 +3619,15 @@ h6,
   z-index: 2;
 }
 
-.ourserviceboximg1-color{
-
+.ourserviceboximg1-color {
   background-color: rgba(35, 141, 255, 0.719);
 }
 
-.ourserviceboximg1-color1{
-
-background-color: rgba(222, 168, 18, 0.719);
+.ourserviceboximg1-color1 {
+  background-color: rgba(222, 168, 18, 0.719);
 }
 
-
-
-.ourserviceboximg1::before{
-
+.ourserviceboximg1::before {
   position: absolute;
   content: "";
   top: 20px;
@@ -3705,11 +3639,9 @@ background-color: rgba(222, 168, 18, 0.719);
   width: 90%;
   height: 70%;
   z-index: 2;
-} 
-
+}
 
 .ourserviceboximg-2 {
-
   position: relative;
   margin: 0px;
   padding: 0px;
@@ -3719,9 +3651,7 @@ background-color: rgba(222, 168, 18, 0.719);
   z-index: 2;
 }
 
-
-.ourserviceboximg-2::before{
-
+.ourserviceboximg-2::before {
   position: absolute;
   content: "";
   top: 20px;
@@ -3733,10 +3663,9 @@ background-color: rgba(222, 168, 18, 0.719);
   width: 90%;
   height: 70%;
   z-index: 2;
-} 
+}
 
 .ourserviceboximg-3 {
-
   position: relative;
   margin: 0px;
   padding: 0px;
@@ -3746,9 +3675,7 @@ background-color: rgba(222, 168, 18, 0.719);
   z-index: 2;
 }
 
-
-.ourserviceboximg-3::before{
-
+.ourserviceboximg-3::before {
   position: absolute;
   content: "";
   top: 20px;
@@ -3760,11 +3687,9 @@ background-color: rgba(222, 168, 18, 0.719);
   width: 90%;
   height: 70%;
   z-index: 2;
-} 
-
+}
 
 .ourserviceboximg-4 {
-
   position: relative;
   margin: 0px;
   padding: 0px;
@@ -3774,9 +3699,7 @@ background-color: rgba(222, 168, 18, 0.719);
   z-index: 2;
 }
 
-
-.ourserviceboximg-4::before{
-
+.ourserviceboximg-4::before {
   position: absolute;
   content: "";
   top: 20px;
@@ -3788,10 +3711,9 @@ background-color: rgba(222, 168, 18, 0.719);
   width: 90%;
   height: 70%;
   z-index: 2;
-} 
+}
 
 .ourserviceboximg-5 {
-
   position: relative;
   margin: 0px;
   padding: 0px;
@@ -3801,9 +3723,7 @@ background-color: rgba(222, 168, 18, 0.719);
   z-index: 2;
 }
 
-
-.ourserviceboximg-5::before{
-
+.ourserviceboximg-5::before {
   position: absolute;
   content: "";
   top: 20px;
@@ -3815,11 +3735,9 @@ background-color: rgba(222, 168, 18, 0.719);
   width: 90%;
   height: 70%;
   z-index: 2;
-} 
-
+}
 
 .ourserviceboximg-6 {
-
   position: relative;
   margin: 0px;
   padding: 0px;
@@ -3829,9 +3747,7 @@ background-color: rgba(222, 168, 18, 0.719);
   z-index: 2;
 }
 
-
-.ourserviceboximg-6::before{
-
+.ourserviceboximg-6::before {
   position: absolute;
   content: "";
   top: 20px;
@@ -3843,12 +3759,9 @@ background-color: rgba(222, 168, 18, 0.719);
   width: 90%;
   height: 70%;
   z-index: 2;
-} 
+}
 
-
-
-
-.ourserviceboximg2{
+.ourserviceboximg2 {
   width: 50%;
   height: 80px;
   background-color: #9e9e9e;
@@ -3857,9 +3770,7 @@ background-color: rgba(222, 168, 18, 0.719);
   position: relative;
 }
 
-
 .CustomWebsitebg1 {
-
   background-color: white;
   margin: 0px auto;
   padding: 60px 20px;
@@ -3868,11 +3779,9 @@ background-color: rgba(222, 168, 18, 0.719);
   margin-top: 10px;
 }
 
-
 /*----responsive----*/
 
 @media (max-width: 991px) {
-
   /*responsivefilter20.03.2025*/
   .headerbtnquote button {
     box-shadow: rgba(53, 53, 53, 0.54) 5px 1px 5px 4px;
@@ -4238,23 +4147,19 @@ background-color: rgba(222, 168, 18, 0.719);
   }
 
   .weareknowntextboxmain {
-
     border-bottom: solid 1px #dadada;
     border-radius: 20px 20px 20px 20px;
   }
 
   .ecommercedevbodyexpertise1boxmaintext h4 {
-
     font-size: 1rem;
   }
 
   .ecommercedevbodyexpertise1boxicon1 {
-
     margin-top: 10px;
   }
 
   .ecommercedevbodyexpertise1boxicon1 {
-
     width: 30px;
     height: 30px;
     background-color: rgb(9, 13, 97);
@@ -4265,10 +4170,7 @@ background-color: rgba(222, 168, 18, 0.719);
     margin-top: 10px;
   }
 
-
   .ecommercedevbodyexpertise1boxicon1 i {
-
-
     color: white;
     font-size: 14px;
     width: 30px;
@@ -4280,86 +4182,68 @@ background-color: rgba(222, 168, 18, 0.719);
   }
 
   .ecommercedevbodyexpertise1boxmain {
-
     padding: 10px 10px;
   }
 
   .ecommercedevbodyexpertise1boxmaintext p {
-
     font-size: 1rem;
-
   }
 
   .whatisgongonmainbtn .button1 {
-
     padding: 5px 40px;
   }
 
   .whatisgongonmainbtn button a {
-
     font-size: 16px;
   }
 
   .button2icon {
-
     font-size: 15px;
   }
 
   .whatisgongonmainbtn button a i {
-
     font-size: 19px;
     line-height: 40px;
   }
 
   .square-holder1 {
-
     margin: 10px 0px;
   }
 
-
   .woocommerceheder h5 {
-
     font-size: 1rem;
   }
 
   .woocommercehederdetails1text p {
-
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 
   .square-holder {
-
     width: 60px;
     height: 60px;
   }
 
   .CustomWebsiteboxtop1text {
-
     min-height: 20px;
     padding: 0px 15px;
     margin-top: 30px;
   }
 
   .CustomWebsiteboxtop1 {
-
     height: 248px !important;
   }
 
   .whatmakesbodyMaindown p {
-
     text-align: justify;
   }
 
   .corporatepadding_left p {
-
     text-align: justify;
   }
 
   .ecommercedevbodytext p {
-
     text-align: justify;
   }
-
 }
 
 @media screen and (max-width: 455px) and (min-width: 360px) {
@@ -4381,94 +4265,59 @@ background-color: rgba(222, 168, 18, 0.719);
   }
 
   .ecommercebodywidth {
-
     padding: 0px !important;
   }
 
   .weareknowntext {
-
     margin-bottom: 1rem;
   }
 
   .weareknowntextbox {
-
     margin-top: -17px;
   }
 
   .dis-none {
-
     display: none;
   }
-
 }
-
 
 /*Responsive---560px-----*/
 
-@media (max-width:560px) {
-
+@media (max-width: 560px) {
   /* .mt_res_top{
 margin-top: 96px;
 
   } */
 
   .servicedtailsbgtext p {
-
     font-size: 1rem;
   }
 
   .partner-bg1textcenter {
-
     padding: 1rem;
   }
 
   .ecommercebodywidth {
-
     padding: 0;
   }
 
   .whatisgongonmainbtn {
-
     flex-direction: column;
   }
 
   .ecommercedevbodytext {
     padding: 1rem 0;
-
   }
 
   .corporatepadding {
     padding: 1rem 0;
-
   }
 }
-
 
 /*-----------responsive-426px-1.04.2025----*/
 
-@media(max-width:426px) {
-
+@media (max-width: 426px) {
   .headerbtnquote button {
-
     width: 65%;
   }
-}
-
-/*------unknowncomment---------*/
-
-.mt-----60{
-
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: 20px;
-  line-height: 30px;
-  font-family: 'Courier New', Courier, monospace;
-  display: inline;
-}
-
-.mt-----70{
-
-  margin: 0px;
-  padding: 0px;
-  font-display: ;
 }
