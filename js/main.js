@@ -1,4 +1,11 @@
 $(document).ready(function () {
+
+
+  $(".navbar-toggler").click(function(){
+    $(".responsive-navbar").toggleClass("main");
+  });
+
+
   $(".nurture").owlCarousel({
     loop: true,
     margin: 10,
@@ -74,6 +81,9 @@ $(document).ready(function () {
       },
     },
   });
+
+
+  
 
   var tabButtons = document.querySelectorAll(".tablinks");
 
