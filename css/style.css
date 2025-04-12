@@ -5986,6 +5986,14 @@ margin-top: -4px;
 
 /*----------MainPillarsofSEO-------*/
 
+
+.mainpilleheight{
+
+margin-top: 28px;
+
+}
+
+
 .mainpillerbg{
 
   background-color: white;
@@ -6009,6 +6017,160 @@ margin-top: -4px;
   font-weight: 500;
   font-family: "Merriweather";
 }
+
+
+.mainpillerbox{
+
+  margin: 0px;
+  padding: 20px;
+  background: linear-gradient(to bottom right , #e1effe , #e7e7e7);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.mainpillerboxshape{
+
+  margin: 0px auto;
+  padding: 0px;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%  ;
+  background-color: #f4ba1bf2;
+  width:  100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.mainpillerboxtext{
+
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+.mainpillerboxtext h4
+{
+
+  text-align: center;
+  color: #090d61;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Merriweather";
+}
+
+.mainpillerboxtext p{
+
+  color: #2b2b2b;
+  font-size: 1rem;
+  font-family: "baloo thambi 2";
+  text-align: justify;
+
+}
+
+
+/*socialmediacall*/
+
+
+.socialmediabg{
+
+  margin: 0px;
+  padding: 0px;
+  background-image: url(../img/seo/seobg.jpg);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0px;
+  position: relative;
+  z-index: 1;
+
+}
+
+.socialmediabg::before{
+
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.87);
+  z-index: -1;
+
+}
+
+.socialmedia_seoright{
+
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  display: block;
+  margin-top: 160px;
+
+}
+
+.socialmedia_seoright h4{
+
+  color: #f4ba1bf2;
+  font-size: 26px;
+  font-family: "Merriweather";
+  line-height: 40px;
+}
+
+.socialmedia_seoright p{
+
+  color: #f0f0f0;
+  font-family: "baloo thambi 2";
+}
+
+.socialmedia_seoright button{
+
+  border:solid 1px #f4ba1bf2 !important ;
+  font-weight: 200;
+}
+
+.socialmedia_seoright button:focus{
+
+  outline: none;
+  box-shadow: none !important;
+}
+
+
+.socialmedialeft{
+
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  display: block;
+  height: 480px;
+
+}
+
+.socialmedialeft img{
+
+  height: 480px;
+object-fit: cover;
+  width: 100%;
+  display: block;
+}
+
+
+/*--------seotechnique-------*/
+
+.seotechniquesbg{
+
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  display: block;
+  
+
+}
+
+
+
 
 
 /*----responsive----*/
