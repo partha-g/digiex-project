@@ -88,7 +88,7 @@ $(document).ready(function () {
   var tabButtons = document.querySelectorAll(".tablinks");
 
   for (var i = 0; i < tabButtons.length; i++) {
-    tabButtons[i].addEventListener("click", function () {
+    tabButtons[i].addEventListener("mousemove", function () {
       var tabName = this.dataset.tab;
       var tabContent = document.getElementById(tabName);
       var allTabContent = document.querySelectorAll(".tabcontent");
@@ -108,7 +108,22 @@ $(document).ready(function () {
   }
 
   document.querySelector(".tablinks").click();
+  simulateMouseMove(document.querySelector(".tablinks"));
 });
+
+function simulateMouseMove(button) {
+  
+
+  // Create a new MouseEvent
+  const mouseMoveEvent = new MouseEvent('mousemove', {
+    // bubbles: true,
+    // cancelable: true,
+
+  });
+
+  // Dispatch the event on the button
+  button.dispatchEvent(mouseMoveEvent);
+}
 
 // (function ($) {
 //     "use strict";
