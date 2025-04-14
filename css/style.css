@@ -6085,7 +6085,7 @@ margin-top: 28px;
   padding: 50px 0px;
   position: relative;
   z-index: 1;
-
+background-attachment: fixed;
 }
 
 .socialmediabg::before{
@@ -6162,15 +6162,81 @@ object-fit: cover;
 .seotechniquesbg{
 
   margin: 0px;
+  padding: 50px 0px;
+  width: 100%;
+  display: block;
+  background-color: white;
+}
+
+.seotechniqueleft{
+
+  margin: 0px;
   padding: 0px;
   width: 100%;
   display: block;
-  
+}
+
+.seotechniqueleft img{
+
+  width: 100%;
+  display: block;
+  height: 350px;
+  object-fit: cover;
+}
+
+.seotechniqueright{
+
+  margin: 0px;
+  padding: 0px;
+}
+
+.seotechniqueright h2{
+
+  text-align: left;
+  color: #090d61;
+  font-size: 26px;
+  font-weight: 500;
+  font-family: "Merriweather";
+  line-height: 35px;
 
 }
 
 
+.seotechniqueright1{
 
+  margin-top: 18px;
+  padding: 0px;
+
+}
+
+.seotechniqueright1 ul{
+
+  margin: 0px;
+  padding: 0px;
+  display: block;
+}
+
+.seotechniqueright1 ul li{
+
+  margin: 0px;
+  padding: 0px 0px;
+  list-style: none;
+
+}
+
+.seotechniqueright1 ul li p{
+  color: #2b2b2b;
+  font-size: 14px;
+  font-family: "baloo thambi 2";
+  text-align: justify;
+
+}
+
+
+.seotechniqueheight{
+margin-top: 40px !important;
+
+}
 
 
 /*----responsive----*/
