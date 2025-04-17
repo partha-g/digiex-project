@@ -1,11 +1,4 @@
 $(document).ready(function () {
-
-
-  $(".navbar-toggler").click(function(){
-    $(".responsive-navbar").toggleClass("main");
-  });
-
-
   $(".nurture").owlCarousel({
     loop: true,
     margin: 10,
@@ -27,7 +20,6 @@ $(document).ready(function () {
     loop: true,
     margin: 10,
     nav: false,
-    dots: true,
     autoplay: true,
     smartSpeed: 1500,
     responsive: {
@@ -66,7 +58,6 @@ $(document).ready(function () {
     loop: true,
     margin: 10,
     nav: false,
-    dots: false,
     autoplay: true,
     smartSpeed: 1500,
     responsive: {
@@ -83,12 +74,36 @@ $(document).ready(function () {
   });
 
 
+  var tabButtons = document.querySelectorAll(".mytablinks");
+
+  for (var i = 0; i < tabButtons.length; i++) {
+    tabButtons[i].addEventListener("click", function () {
+      var tabName = this.dataset.tab;
+      var tabContent = document.getElementById(tabName);
+      var allTabContent = document.querySelectorAll(".mytabcontent");
+      var allTabButtons = document.querySelectorAll(".my_tablinks");
+ 
+      for (var j = 0; j < allTabContent.length; j++) {
+        allTabContent[j].style.display = "none";
+      }
+ 
+      for (var k = 0; k < allTabButtons.length; k++) {
+        allTabButtons[k].classList.remove("active");
+      }
+ 
+      tabContent.style.display = "block";
+      tabContent.classList.add("active");
   
+    });
+  }
+ 
+   document.querySelector(".mytablinks").click();
+
 
   var tabButtons = document.querySelectorAll(".tablinks");
 
   for (var i = 0; i < tabButtons.length; i++) {
-    tabButtons[i].addEventListener("mousemove", function () {
+    tabButtons[i].addEventListener("click", function () {
       var tabName = this.dataset.tab;
       var tabContent = document.getElementById(tabName);
       var allTabContent = document.querySelectorAll(".tabcontent");
@@ -108,22 +123,7 @@ $(document).ready(function () {
   }
 
   document.querySelector(".tablinks").click();
-  simulateMouseMove(document.querySelector(".tablinks"));
 });
-
-function simulateMouseMove(button) {
-  
-
-  // Create a new MouseEvent
-  const mouseMoveEvent = new MouseEvent('mousemove', {
-    // bubbles: true,
-    // cancelable: true,
-
-  });
-
-  // Dispatch the event on the button
-  button.dispatchEvent(mouseMoveEvent);
-}
 
 // (function ($) {
 //     "use strict";
@@ -223,29 +223,40 @@ feqbody.forEach((myvalue) => {
   });
 });
 
+
 /*---filtertooggle----*/
 
-let filterbtn = document.querySelector(".filtertext");
+ let filterbtn = document.querySelector(".filtertext");
 
-filterbtn.addEventListener("click", () => {
-  var opacity = 0;
-  let filterbox = document.querySelector(".filterbox");
-  setTimeout(function () {
-    let filterbox = document.querySelector(".filterbox");
+filterbtn.addEventListener("click",()=>{
+  var opacity = 0; 
+  let filterbox= document.querySelector(".filterbox");
+  setTimeout(function(){
+
+    let filterbox= document.querySelector(".filterbox");
 
     filterbox.classList.toggle("mytoggle");
     filterbox.style.opacity = 1;
-  }, 400);
 
-  //   var intervalID = setInterval(function() {
+  },400)
+  
+//   var intervalID = setInterval(function() { 
+          
+//     if (opacity < 1) { 
+//         opacity = opacity + 0.1 
+//         filterbox.style.opacity = opacity; 
+//         // filterbox.classList.toggle("mytoggle");
+//     } else { 
+//         clearInterval(intervalID); 
+//         opacity = opacity - 0.1 ;
+//     } 
+// }, 200); 
 
-  //     if (opacity < 1) {
-  //         opacity = opacity + 0.1
-  //         filterbox.style.opacity = opacity;
-  //         // filterbox.classList.toggle("mytoggle");
-  //     } else {
-  //         clearInterval(intervalID);
-  //         opacity = opacity - 0.1 ;
-  //     }
-  // }, 200);
-});
+
+
+ })
+
+
+
+ 
+

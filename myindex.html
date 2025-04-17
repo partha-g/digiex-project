@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+        }
+        .tab-buttons {
+          display: flex;
+          border-bottom: 2px solid #ccc;
+        }
+        .tab-buttons button {
+          padding: 10px 20px;
+          cursor: pointer;
+          border: none;
+          border-bottom: 2px solid transparent;
+          background: none;
+          outline: none;
+          font-weight: bold;
+        }
+        .tab-buttons button.active {
+          border-bottom: 2px solid #007BFF;
+          color: #007BFF;
+        }
+        .tab-content {
+          display: none;
+          padding: 20px;
+          border: 1px solid #ccc;
+          border-top: none;
+        }
+        .tab-content.active {
+          display: block;
+        }
+      </style>
+
+      
+<div class="tab-container">
+    <div class="tab-buttons">
+      <button class="tab-btn active" data-tab="tab1">Tab 1</button>
+      <button class="tab-btn" data-tab="tab2">Tab 2</button>
+      <button class="tab-btn" data-tab="tab3">Tab 3</button>
+    </div>
+    <div class="tab-content active" id="tab1">Content for Tab 1</div>
+    <div class="tab-content" id="tab2">Content for Tab 2</div>
+    <div class="tab-content" id="tab3">Content for Tab 3</div>
+  </div>
+
+  <script>
+    const tabmyButtons = document.querySelectorAll('.tab-btn');
+    const tabContents = document.querySelectorAll('.tab-content');
+  
+    tabmyButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        // Remove active class from all buttons
+        tabmyButtons.forEach(btn => btn.classList.remove('active'));
+        // Add active to clicked button
+        button.classList.add('active');
+  
+        // Hide all contents
+        tabContents.forEach(content => content.classList.remove('active'));
+        // Show matching content
+        const target = document.getElementById(button.dataset.tab);
+        target.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
